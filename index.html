@@ -2,40 +2,35 @@
 <html lang="en-US">
 
 <head>
-  <!-- HTML head -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Landing Page</title>
-
-  <!-- Link the CSS stylesheet here -->
+  <title>My Dev Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
 </head>
 
 <body>
-  <!-- Header, Navigation w/ links -->
   <header>
-    <nav class="">
+    <nav class="util--text-right">
       <ul>
-        <li><a href="#">Github</a></li>
+        <li><a href="https://github.com/nickarocho" target="_blank">Github</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <!-- Main content -->
-  <main>
+
+  <main class="util--text-center">
     <section id="portfolio">
       <h1>My Dev Portfolio</h1>
       <figure>
-        <img src="#" alt="A very descriptive description">
-        <figcaption>A very descriptive description</figcaption>
+        <img class="hello-image" src="./assets/images/hello-neon.jpg" alt="Hello, neon. Picture by Drew Beamer.">
+        <figcaption>Hello, in neon form.</figcaption>
       </figure>
     </section>
-    <!-- (title, image/figure, image/figure caption) -->
-    <!-- Contact section -->
+
     <section id="contact">
-      <!-- (section header) -->
       <h2>Hit me up</h2>
-      <!-- (contact form w/ inputs & submit button) -->
       <form>
         <ul>
           <li class="input-wrapper">
@@ -54,8 +49,7 @@
     </section>
   </main>
 
-  <!-- Footer -->
-  <footer class="">
+  <footer class="util--text-center">
     © 2022 My sweet site. All rights reserved.
   </footer>
 </body>

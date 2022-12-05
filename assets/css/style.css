@@ -1,0 +1,70 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Satisfy", sans-serif;
+}
+
+/* Element Selectors */
+header {
+  position: fixed;
+  background: black;
+  width: 100%;
+  border-bottom: 10px solid #bfac8c;
+}
+
+main {
+  padding-top: 100px;
+}
+
+nav {
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  padding: 0 20px;
+}
+
+/* Class & ID Selectors */
+#contact {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #bfac8c;
+}
+
+.input-wrapper {
+  padding: 5px 0;
+}
+
+.hello-image {
+  width: 300px;
+}
+
+.submit-button {
+  padding: 5px 10px;
+  border-radius: 12px;
+  background: black;
+  color: #faf6e7;
+  cursor: pointer;
+  border: 2px solid #e08dca;
+  font-size: 16px;
+}
+
+/* Utility Classes */
+.util--text-right {
+  text-align: right;
+}
+
+.util--text-center {
+  text-align: center;
+}
